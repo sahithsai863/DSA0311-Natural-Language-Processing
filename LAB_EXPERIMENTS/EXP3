@@ -1,0 +1,7 @@
+word = "playing"
+suffix = "ing"
+
+if word.endswith(suffix):
+    stem = word[:-len(suffix)]
+    print("Stem:", stem)
+    print("Suffix:", suffix)

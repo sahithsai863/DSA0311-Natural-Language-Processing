@@ -1,0 +1,6 @@
+s = input("Enter a string: ")
+
+if all(ch in "ab" for ch in s) and s.endswith("ab"):
+    print("String Accepted")
+else:
+    print("String Rejected")
